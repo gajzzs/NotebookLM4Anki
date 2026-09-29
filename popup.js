@@ -8,7 +8,7 @@ document.getElementById('extractBtn').addEventListener('click', () => {
     const activeTab = tabs[0];
     
     // Check if we're on the NotebookLM site
-    if (!activeTab.url.includes('https://notebooklm.google.com/')) {
+    if (!activeTab.url.includes('https://notebook.google.com/')) {
       resultElement.innerText = 'Error: Please navigate to NotebookLM to extract flashcards.';
       return;
     }
